@@ -1,0 +1,39 @@
+{
+  "name": "UrlSDK",
+  "version": "1.0.0",
+  "summary": "The UrlSDK main feature like pod or framework.",
+  "description": "The UrlSDK will be use for document Reader functionality.",
+  "homepage": "https://github.com/mobileexpert1/UrlSDK",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "mobileexpert1": "appsdev096@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/mobileexpert1/UrlSDK.git",
+    "tag": "1.0.0"
+  },
+  "platforms": {
+    "ios": "14.0"
+  },
+  "swift_versions": "5.0",
+  "frameworks": [
+    "UIKit",
+    "SwiftUI"
+  ],
+  "source_files": "UrlSDK/Classes/**/*",
+  "dependencies": {
+    "Alamofire": [
+
+    ],
+    "DocumentReaderFullAuthRFID": [
+
+    ],
+    "DocumentReader": [
+
+    ]
+  },
+  "swift_version": "5.0"
+}

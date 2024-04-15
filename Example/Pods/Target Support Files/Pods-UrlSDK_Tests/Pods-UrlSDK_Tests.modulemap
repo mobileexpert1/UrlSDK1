@@ -1,0 +1,6 @@
+framework module Pods_UrlSDK_Tests {
+  umbrella header "Pods-UrlSDK_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

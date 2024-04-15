@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '14.0'
+
+target 'UrlSDK_Example' do
+  pod 'UrlSDK', :path => '../'
+
+  target 'UrlSDK_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

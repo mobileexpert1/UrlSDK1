@@ -1,0 +1,35 @@
+PODS:
+  - Alamofire (5.9.1)
+  - DocumentReader (7.1.3379):
+    - RegulaCommon (= 7.1.379)
+  - DocumentReaderFullAuthRFID (7.1.8789)
+  - RegulaCommon (7.1.379)
+  - UrlSDK (1.0.0):
+    - Alamofire
+    - DocumentReader
+    - DocumentReaderFullAuthRFID
+
+DEPENDENCIES:
+  - UrlSDK (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - DocumentReader
+    - DocumentReaderFullAuthRFID
+    - RegulaCommon
+
+EXTERNAL SOURCES:
+  UrlSDK:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Alamofire: f36a35757af4587d8e4f4bfa223ad10be2422b8c
+  DocumentReader: 1d1399d9b8e2986ebe38dce6c110d07c9574c8f8
+  DocumentReaderFullAuthRFID: 7c5cc4f6055e62ee6b60eef18f1ce0a8b94a1db0
+  RegulaCommon: c42f00bae963df44c821144bb59802d3cb999d73
+  UrlSDK: fb8b3ee0d92ce2406e7f548fcbbcf6c2907c193a
+
+PODFILE CHECKSUM: 86f770619d65554ecf08dd4ce4bd6fca5fb98038
+
+COCOAPODS: 1.15.2

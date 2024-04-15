@@ -1,0 +1,6 @@
+framework module UrlSDK {
+  umbrella header "UrlSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}
